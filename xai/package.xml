@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>xai</name>
+  <version>0.1.0</version>
+  <description>Unified launcher for object detection, bypass, and logging.</description>
+
+  <maintainer email="you@example.com">Amit Maurya</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rosbot_object_detection</exec_depend>
+  <exec_depend>rosbot_obstacle_bypass</exec_depend>
+  <exec_depend>rosbot_logger</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

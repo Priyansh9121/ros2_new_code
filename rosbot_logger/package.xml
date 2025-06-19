@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rosbot_logger</name>                
+  <version>0.1.0</version>
+  <description>Simple event logger for ROSbot goals and detections.</description>
+
+  <maintainer email="you@example.com">Amit Maurya</maintainer>
+  <license>MIT</license>
+
+  <!-- build system -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- runtime deps – keep only what you actually import -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
